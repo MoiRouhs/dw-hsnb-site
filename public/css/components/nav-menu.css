@@ -1,0 +1,42 @@
+header{
+  z-index: 5;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: white;
+  width:100%;
+  padding: 0 20px;
+  height:100px;
+  display: grid !important;
+  grid-template-columns: 85px auto 70px;
+
+  .logo{
+    height:70px;
+    margin:15px 15px 15px 0;
+  }
+
+  .name {
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+    font-family: sans-serif;
+  }
+
+  .icons {
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .cart, .login{
+    width:30px;
+  }
+
+  .link{
+    cursor:pointer;
+  }
+}
+.transparency{
+  background: rgba(255, 255, 255, .3);
+}

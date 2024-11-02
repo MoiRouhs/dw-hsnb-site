@@ -1,0 +1,23 @@
+{
+    "name": "moi/hsnb",
+    "description": "Desarrollo web UNAD",
+    "type": "project",
+    "license": "GPL",
+    "autoload": {
+        "psr-4": {
+            "Moi\\Hsnb\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Carlos Rocha"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": "^7.3 || ^8.0"
+    },
+    "scripts": {
+        "dev": "php -S localhost:8000 -t public"
+    }
+}
