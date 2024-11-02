@@ -1,8 +1,28 @@
 @import url("components/slider-home.css"); 
 @import url("components/nav-menu.css"); 
 @import url("components/product-slider.css"); 
+@import url("components/banner-product.css"); 
 @import url("components/footer.css"); 
 body{
   margin:0;
   padding:0;
+
+  .banner-hero {
+    height:400px;
+    margin-bottom:100px;
+    display:flex;
+    h1{
+      display:block;
+      margin: auto;
+    }
+  }
+  .banner-hero.cart{
+    background:linear-gradient(0deg, rgba(0,193,195,1) 44%, rgba(45,68,253,1) 100%);
+  }
+  .banner-hero.login{
+    background:linear-gradient(0deg, rgba(34,0,195,1) 44%, rgba(45,68,253,1) 100%);
+  }
+  .banner-hero.products{
+    background:linear-gradient(0deg, rgba(34,193,0,1) 44%, rgba(45,68,253,1) 100%);
+  }
 }

@@ -1,0 +1,23 @@
+
+.banner-product{
+  padding-top:120px;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  .text {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    padding: 20px;
+  }
+  .texto {
+    min-width: 400px;
+    width: 50%;
+  }
+}
+@media (max-width: 900px) { 
+  .banner-product{
+    grid-template-columns: 1fr;
+  }
+
+}
