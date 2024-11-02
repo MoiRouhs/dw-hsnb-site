@@ -11,5 +11,6 @@
     <?php include(__DIR__ . '/../components/nav-menu.php') ?>
     <?php include(__DIR__ . '/../components/slider-home.php') ?>
     <?php include(__DIR__ . '/../components/product-slider.php') ?>
+    <?php include(__DIR__ . '/../components/footer.php') ?>
 </body>
 </html>
