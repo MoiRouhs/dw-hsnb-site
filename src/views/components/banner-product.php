@@ -8,7 +8,7 @@
       <p class="subtitle s-5">Aquí encontrará todo nuestro catalogo, con las mejores promociones en el mercado</p>
     </div>
     <div class="buton">
-      <a class="button is-primary" href="/products">Ver más</a>
+      <a class="button is-primary" href="/productos">Ver más</a>
     </div>
   </div>
 </div>

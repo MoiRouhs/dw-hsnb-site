@@ -1,3 +1,10 @@
+<?php
+include(__DIR__ ."/../../database/connection.php");
+$con = connection();
+
+$sql = "SELECT * FROM products";
+$query = mysqli_query($con, $sql);
+?>
 <html lang="es" data-theme="light">
 <head>
     <title>HSNB - Productos</title>
@@ -12,6 +19,12 @@
         <h1 class="title is-1">Todos Los Productos</h1>
     </div>
     <?php include(__DIR__ . '/../components/nav-menu.php') ?>
+    <div class="container">
+    <div class="list">
+        <?php while ($row = mysqli_fetch_array($query)): ?>
+        <?php endwhile; ?>
+    </div>
+    </div>
     <?php include(__DIR__ . '/../components/footer.php') ?>
 </body>
 </html>

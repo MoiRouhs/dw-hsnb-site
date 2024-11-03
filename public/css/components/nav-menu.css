@@ -21,12 +21,20 @@ header{
     font-size: 30px;
     font-family: sans-serif;
   }
-
-  .icons {
+  .icons-container, .icons {
     display: flex;
+    align-items: center;
+  }
+  .icons-container{
+    flex-direction: column;
+    justify-content: center;
+    .niminame {
+      color: lawngreen;
+    }
+  }
+  .icons {
     gap: 10px;
     justify-content: space-between;
-    align-items: center;
   }
 
   .cart, .login{

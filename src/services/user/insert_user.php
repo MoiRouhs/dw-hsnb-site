@@ -12,8 +12,13 @@ $password = $_POST['password'];
 $email = $_POST['email'];
 
 if(!empty($name) && !empty($lastname) && !empty($username) && !empty($password) && !empty($email)){
+    try {
     $sql = "INSERT INTO users_crud_php.users (name, lastname, username, password, email) VALUES('$name','$lastname','$username','$password','$email')";
     $query = mysqli_query($con, $sql);
+    }catch (Exception $e) {
+        Header("Location: /panel?inser_user=false");
+        exit();
+    }
 }
 if($query){
     Header("Location: /panel?inser_user=true");

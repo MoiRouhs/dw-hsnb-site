@@ -29,6 +29,13 @@
                 <input class="input mt-2 mb-2" type="hidden" name="id" value="<?= $row['id']?>">
                 <input class="input mt-2 mb-2" type="text" name="name" placeholder="Nombre" value="<?= $row['name']?>">
                 <input class="input mt-2 mb-2" type="text" name="lastname" placeholder="Apellidos" value="<?= $row['lastname']?>">
+                <select class="select mt-2 mb-2 is-fullwidth" name="tipo_cliente" placeholder="Tipo de cliente">
+                <option value="<?= $row['tipocliente']?>" selected><?= $row['tipocliente']?></option>
+                  <option value="permanente">Permanente</option>
+                  <option value="periódico">Periódico</option>
+                  <option value="casual">Casual</option>
+                  <option value="nuevo">Nuevo</option>
+                </select>
                 <input class="input mt-2 mb-2" type="text" name="username" placeholder="Username" value="<?= $row['username']?>">
                 <input class="input mt-2 mb-2" type="text" name="password" placeholder="Password" value="<?= $row['password']?>">
                 <input class="input mt-2 mb-2" type="text" name="email" placeholder="Email" value="<?= $row['email']?>">

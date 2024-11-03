@@ -66,6 +66,7 @@ $query = mysqli_query($con, $sql);
                     <th>ID</th>
                     <th>Nombre</th>
                     <th>Apellidos</th>
+                    <th>Tipo de usuario</th>
                     <th>Username</th>
                     <th>Password</th>
                     <th>Email</th>
@@ -79,10 +80,11 @@ $query = mysqli_query($con, $sql);
                         <th><?= $row['id'] ?></th>
                         <th><?= $row['name'] ?></th>
                         <th><?= $row['lastname'] ?></th>
+                        <th><?= $row['tipocliente'] ?></th>
                         <th><?= $row['username'] ?></th>
                         <th><?= $row['password'] ?></th>
                         <th><?= $row['email'] ?></th>
-                        <th><a href="update?id=<?= $row['id'] ?>" class="button">Editar</a></th>
+                        <th><a href="panel/update?id=<?= $row['id'] ?>" class="button">Editar</a></th>
                         <th><a href="delete_user?id=<?= $row['id'] ?>" class="button " >Eliminar</a></th>
                     </tr>
                 <?php endwhile; ?>

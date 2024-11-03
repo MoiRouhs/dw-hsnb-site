@@ -16,7 +16,7 @@
         <div class="text">
           <p class="title s-1">tenemos los mejores productos para construccion, latoneria y ornamentacióni de todo el mercado</p>
         </div>
-        <a class="button is-primary">Ver todos productos</a>
+        <a class="button is-primary" href="/productos">Ver todos productos</a>
       </div>
     </div>
     <div class="swiper-slide" style="background-image: url('../assets/uno.webp');">
@@ -24,7 +24,7 @@
         <div class="text">
           <p class="title s-1">Puedes crear una cuenta para tener super descuentos</p>
         </div>
-        <a class="button is-primary">Crear cuenta</a>
+        <a class="button is-primary" href="/login">Crear cuenta</a>
       </div>
     
     </div>
