@@ -19,7 +19,6 @@ if(!empty($password) && !empty($email)){
 }
 if($query){
     $cliente = mysqli_fetch_array($query);
-    echo 'nombre:' . $cliente['name'];
     $data = [
       "id" => $cliente['id'],
       "name" => $cliente['name'],

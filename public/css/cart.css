@@ -1,0 +1,70 @@
+.container {
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.item-list {
+    margin-bottom: 20px;
+}
+
+.header-row {
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+    padding: 10px 15px;
+    border-bottom: 2px solid #333; /* Borde inferior para el encabezado */
+    background-color: #f2f2f2; /* Fondo del encabezado */
+}
+
+.item-row {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 15px;
+    border: 1px solid #ddd;
+    margin-bottom: 10px; /* Espacio entre los productos */
+    border-radius: 5px;
+}
+
+.item-name, .header-name {
+    flex: 2;
+}
+
+.item-quantity,
+.item-price, .header-quantity, .header-price {
+    flex: 1;
+    text-align: right; /* Alinear a la derecha */
+}
+
+.summary-table {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.summary-row {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 15px;
+    border-bottom: 1px solid #ddd;
+}
+
+.summary-row:last-child {
+    border-bottom: none; /* Elimina el borde en la última fila */
+}
+
+.summary-label {
+    font-weight: bold;
+}
+
+.summary-value {
+    color: #333;
+}
+
+.total-row {
+    font-weight: bold;
+    background-color: #f2f2f2; /* Fondo diferente para la fila total */
+}
+

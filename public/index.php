@@ -78,7 +78,9 @@ case 'logout':
   require( __DIR__ . '/../src/services/user/logout_user.php' );
   break;
 
-
+case 'push_product':
+  require( __DIR__ . '/../src/services/cart/push_product.php' );
+  break;
 
 default:
   // Página 404
