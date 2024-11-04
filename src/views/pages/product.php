@@ -1,5 +1,5 @@
 <?php
-include(__DIR__ ."/../../database/connection.php");
+    include(__DIR__ ."/../../database/connection.php");
     $con = connection();
 
     $id=$_GET['id'];

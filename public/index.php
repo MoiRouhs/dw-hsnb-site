@@ -58,6 +58,12 @@ case 'cliente':
   $controller->index();
   break;
 
+case 'gracias':
+  require '../src/controllers/thankyou.php';
+  $controller = new ThankYouController();
+  $controller->index();
+  break;
+
 case 'insert_user':
   require( __DIR__ . '/../src/services/user/insert_user.php' );
   break;

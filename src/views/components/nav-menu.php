@@ -8,6 +8,10 @@ if (isset($_COOKIE['cliente_data'])) {
   $name ;
   $path = '/login';
 }
+$itemsNum = 0;
+if (isset($_COOKIE['hsnb_order'])) {
+  $itemsNum = count(json_decode($_COOKIE['hsnb_order'], true));
+}
 ?>
 <header class="transparency">
   <a class="link" href="/">
@@ -18,6 +22,11 @@ if (isset($_COOKIE['cliente_data'])) {
   <div class="icons">
     <a class="link" href="/cart">
       <img class="cart" src="../assets/cart.svg" alt="cart">
+      <?php if($itemsNum > 0):?>
+      <div class="container-items">
+        <p class="item-num"><?= $itemsNum ;?></p>
+      </div>
+      <?php endif;?>
     </a>
     <a class="link" href="<?= $path ;?>" >
       <img class="login" src="../assets/person.svg" alt="cuenta de usuario">

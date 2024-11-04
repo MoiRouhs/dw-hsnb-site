@@ -1,5 +1,11 @@
 .container {
     padding: 20px;
+    .btn{
+      display: flex;
+      width: fit-content;
+      justify-self: end;
+      margin-top: 20px;
+    }
 }
 
 h1 {

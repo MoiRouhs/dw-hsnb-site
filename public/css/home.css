@@ -25,4 +25,7 @@ body{
   .banner-hero.products{
     background:linear-gradient(0deg, rgba(34,193,0,1) 44%, rgba(45,68,253,1) 100%);
   }
+  .banner-hero.thankyou{
+    background:linear-gradient(40deg, rgba(34,193,0,1) 44%, rgba(45,68,253,1) 100%);
+  }
 }

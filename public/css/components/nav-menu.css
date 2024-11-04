@@ -43,8 +43,36 @@ header{
 
   .link{
     cursor:pointer;
+    position:relative;
   }
+  .container-items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: darkgoldenrod;
+    border-radius: 20px;
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 1;
+    animation: fade 2s infinite;
+  }
+
 }
 .transparency{
   background: rgba(255, 255, 255, .3);
+}
+@keyframes fade {
+  0% {
+      opacity: 1; /* Comienza completamente visible */
+  }
+  50% {
+      opacity: 0; /* A la mitad de la animación se desvanecen */
+  }
+  100% {
+      opacity: 1; /* Regresa a ser completamente visible al final */
+  }
 }
