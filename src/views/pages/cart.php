@@ -10,7 +10,10 @@ if (isset($_COOKIE['hsnb_order'])) {
 
 <html lang="es" data-theme="light">
 <head>
-    <title>HSNB - Cart</title>
+    <title>Tu Carrito de Compras | Hardware Store Nuts and Bolts</title>
+    <meta name="description" content="Revisa los productos en tu carrito de compras. Finaliza tu pedido fácilmente y obtén los mejores materiales y herramientas para tus proyectos de construcción y remodelación. ¡Compra con confianza!">
+    <meta name="keywords" content="Carrito de compras, Ferretería en línea, Materiales y herramientas" />
+    <meta name="author" content="Carlos Rocha" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="/css/home.css">
     <link rel="stylesheet" href="/css/cart.css">
@@ -18,7 +21,7 @@ if (isset($_COOKIE['hsnb_order'])) {
 </head>
 <body>
     <div class="banner-hero container is-fluid cart">
-        <h1 class="title is-1">Aquí estas tus cproductos agegados</h1>
+        <h1 class="title is-1">Aquí estan los productos agregados</h1>
     </div>
     <?php include(__DIR__ . '/../components/nav-menu.php') ?>
     <?php 

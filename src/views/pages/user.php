@@ -29,7 +29,10 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link href="css/style.css" rel="stylesheet">
-        <title>HSNB - <?= $name ;?></title>
+        <title>Perfil de Usuario | <?= $name ;?> | Ferretería HSNB</title>
+        <meta name="description" content="Gestiona tu información personal, revisa tus pedidos y actualiza tus preferencias en tu perfil de usuario. Disfruta de una experiencia personalizada para tus proyectos de construcción.">
+        <meta name="keywords" content="Perfil de usuario, Gestión de cuenta, Pedidos y preferencias" />
+        <meta name="author" content="Carlos Rocha" />
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.2/css/bulma.min.css">
         <link rel="stylesheet" href="/css/home.css">
         <link rel="stylesheet" href="/css/user.css">
@@ -40,6 +43,7 @@
     <h1 class="title is-1">Bienvenido <?= $name ;?></h1>
     </div>
         <div class="users-form edit">
+            <h2 class="subtitle is-3">Información Personal</h2>
             <form action="edit_user_front" method="POST">
                 <input class="input mt-2 mb-2" type="hidden" name="id" value="<?= $row['id']?>">
                 <input class="input mt-2 mb-2" type="text" name="name" placeholder="Nombre" value="<?= $row['name']?>">

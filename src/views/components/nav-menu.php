@@ -15,13 +15,13 @@ if (isset($_COOKIE['hsnb_order'])) {
 ?>
 <header class="transparency">
   <a class="link" href="/">
-    <img class="logo" src="../assets/logo-2.webp" alt="logo">
+    <img class="logo" src="../assets/logo-2.webp" alt="logo" title="logo">
   </a>
   <div class="name"><p class="title s-4">Hardware Store Nuts and Bolts</p></div>
   <div class="icons-container">
   <div class="icons">
     <a class="link" href="/cart">
-      <img class="cart" src="../assets/cart.svg" alt="cart">
+      <img class="cart" src="../assets/cart.svg" alt="cart" title="icono carrito">
       <?php if($itemsNum > 0):?>
       <div class="container-items">
         <p class="item-num"><?= $itemsNum ;?></p>
@@ -29,7 +29,7 @@ if (isset($_COOKIE['hsnb_order'])) {
       <?php endif;?>
     </a>
     <a class="link" href="<?= $path ;?>" >
-      <img class="login" src="../assets/person.svg" alt="cuenta de usuario">
+      <img class="login" src="../assets/person.svg" alt="cuenta de usuario" title="icono cuenta de usuario">
     </a>
   </div>
   <p class="niminame"><?= $name ;?></p>

@@ -1,6 +1,6 @@
 <div class="banner-product">
   <div class="image">
-    <img class="banner" src="../assets/banner-product.png" alt="instalaciones tienda">
+    <img class="banner" src="../assets/banner-product.png" alt="instalaciones tienda" title="instalaciones tienda">
   </div>
   <div class="text">
     <div class="texto">

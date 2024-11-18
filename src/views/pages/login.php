@@ -1,6 +1,9 @@
 <html lang="es" data-theme="light">
 <head>
-    <title>HSNB - Iniciar sesión</title>
+    <title>Iniciar sesión | | Hardware Store Nuts and Bolts</title>
+    <meta name="description" content="Accede a tu cuenta para gestionar tus pedidos, guardar tu carrito y disfrutar de una experiencia personalizada. Inicia sesión ahora y sigue construyendo tus proyectos con nosotros.">
+    <meta name="keywords" content="Iniciar sesión ferretería, Acceso cuenta clientes, Gestión de pedidos online" />
+    <meta name="author" content="Carlos Rocha" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="/css/home.css">
     <link rel="stylesheet" href="/css/login.css">
