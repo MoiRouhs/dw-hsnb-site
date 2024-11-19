@@ -12,6 +12,7 @@
 </head>
 <body>
     <?php include(__DIR__ . '/../components/nav-menu.php') ?>
+    <h1 class="hidden">Hardware Store Nuts and Bolts</h1>
     <?php include(__DIR__ . '/../components/slider-home.php') ?>
     <?php include(__DIR__ . '/../components/product-slider.php') ?>
     <?php include(__DIR__ . '/../components/banner-product.php') ?>
